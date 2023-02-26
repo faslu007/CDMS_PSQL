@@ -14,8 +14,6 @@ const app = express();
 app.use(bodyParser.json());
 app.use(express.json());
 
-console.log('test');
-
 // for parsing application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true })); 
 
